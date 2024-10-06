@@ -18,16 +18,24 @@ html {
 }
 
 :root {
-    --first-color: #001920;
+    --first-color: #181818;
     --second-color: #FF0000;
     --third-color: #f7f9ff;
     --fourth-color: #FF0000;
+    --about-background-color: #121010;
     --font-family: "Catamaran", sans-serif;
     --font-size-title: 3.5rem;
+    --social-media-icons-size: 3.5rem;
+    --cv-icon-size: 2rem;
     --greetings-font-size: 3.2rem;
     --name-font-size: 7.5rem;
     --text-area-font-size: 4rem;
     --infos-button-text-size: 1.8rem;
+    --about-me-font-size: 3rem;
+    --about-phrase-font-size: 3.5rem;
+    --about-area-and-name-formations-font-size: 1.8rem;
+    --formations-title-font-size: 2.5rem;
+    --formations-text-font-size: 1.5rem;
     --text-shadow:
         2px 2px 1px rgba(53, 4, 4, 0.7),
         -2px -2px 1px rgba(53, 0, 0, 0.7),
@@ -35,6 +43,7 @@ html {
         2px -2px 1px rgba(53, 0, 0, 0.7);
     --blur: blur(10px);
     --menu-color: rgba(0, 0, 0, 0.9);
+    --about-content-background-color: #450000;
     --scrollbar-track-color-one: #000000;
     --scrollbar-track-color-two: #260000;
     --scrollbar-color-one: #A00000;
@@ -42,5 +51,5 @@ html {
     --scrollbar-hover-color-one: #e00000;
     --scrollbar-hover-color-two: #660000;
     --scrollbar-active-color-one: #f10000;
-    --scrollbar-active-color-two: #850000;
+    --scrollbar-active-color-two: #850000;  
 }
