@@ -3,6 +3,7 @@
 @import url(./footer.css);
 @import url(./about.css);
 @import url(./scrollbar.css);
+@import url(./skills.css);
 
 * {
     margin: 0;
@@ -21,7 +22,7 @@ html {
     --first-color: #181818;
     --second-color: #FF0000;
     --third-color: #f7f9ff;
-    --fourth-color: #FF0000;
+    --fourth-color: #222222;
     --about-background-color: #121010;
     --font-family: "Catamaran", sans-serif;
     --font-size-title: 3.5rem;
