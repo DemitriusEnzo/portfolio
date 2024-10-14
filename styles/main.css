@@ -4,6 +4,7 @@
 @import url(./about.css);
 @import url(./scrollbar.css);
 @import url(./skills.css);
+@import url(./projects.css);
 
 * {
     margin: 0;
@@ -24,6 +25,7 @@ html {
     --third-color: #f7f9ff;
     --fourth-color: #222222;
     --about-background-color: #121010;
+    --skill-box-color: #121010;
     --font-family: "Catamaran", sans-serif;
     --font-size-title: 3.5rem;
     --social-media-icons-size: 3.5rem;
@@ -37,6 +39,9 @@ html {
     --about-area-and-name-formations-font-size: 1.8rem;
     --formations-title-font-size: 2.5rem;
     --formations-text-font-size: 1.5rem;
+    --projects-title-font-size: 7rem;
+    --project-name-font-size: 3rem;
+    --project-button-font-size: 1.6rem;
     --text-shadow:
         2px 2px 1px rgba(53, 4, 4, 0.7),
         -2px -2px 1px rgba(53, 0, 0, 0.7),
@@ -45,6 +50,7 @@ html {
     --blur: blur(10px);
     --menu-color: rgba(0, 0, 0, 0.9);
     --about-content-background-color: #450000;
+    --projects-background-color: #210000;
     --scrollbar-track-color-one: #000000;
     --scrollbar-track-color-two: #260000;
     --scrollbar-color-one: #A00000;

@@ -31,6 +31,10 @@
             font-weight: 900;
             color: var(--third-color);
             text-shadow: var(--text-shadow);
+
+            @media (width < 450px) {
+                font-size: 5.5rem;
+            }
         }
 
         .text-area {
@@ -38,7 +42,6 @@
             color: var(--second-color);
             text-shadow: var(--text-shadow);
             font-weight: 500;
-            position: relative;
 
             .typing {
                 display: inline-block;
@@ -67,7 +70,7 @@
             backdrop-filter: var(--blur);
             position: relative;
             overflow: hidden;
-            transition: transform 0.3s ease;
+            transition: 0.3s;
 
             &:hover {
                 transform: scale(1.05);
@@ -83,7 +86,7 @@
                 font-size: var(--infos-button-text-size);
                 position: relative;
                 z-index: 1;
-                transition: color 0.4s ease;
+                transition: 0.4s;
                 padding: 5% 0;
             }
 
@@ -97,7 +100,7 @@
                 background-color: var(--second-color);
                 z-index: 0;
                 transform: scale(0);
-                transition: transform 0.1s ease;
+                transition: 0.1s;
             }
 
             &:hover:before {
